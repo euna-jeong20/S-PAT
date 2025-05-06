@@ -3,6 +3,7 @@ import TestPages from "./pages/TestPages";
 import Layout from "./components/Layout/Layout";
 
 import Step1ClassificationSetup from "./pages/Step1ClassificationSetup";
+import DataTable from "./components/DataTable";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/test" element={<TestPages />} />
+          <Route path="/table" element={<DataTable />} />
 
           {/* 사용자 모드 */}
           <Route path="/user">
