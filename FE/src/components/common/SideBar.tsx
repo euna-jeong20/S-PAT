@@ -93,7 +93,7 @@ const SideBar: React.FC = () => {
                   ? "text-[#19213D] font-[14px] font-samsung400"
                   : "text-primary-gray font-[14px] font-samsung400"
               }`}>
-              Step 3 특허 데이터 업로드
+              Step 3 특허 데이터 분류
             </p>
           </div>
         </div>
