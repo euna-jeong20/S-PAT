@@ -12,6 +12,7 @@
   "dependencies": {
     "@tanstack/react-table": "^8.21.3",
     "@tanstack/react-virtual": "^3.13.8",
+    "ag-grid-react": "^33.2.4",
     "axios": "^1.9.0",
     "lucide-react": "^0.503.0",
     "react": "^19.0.0",

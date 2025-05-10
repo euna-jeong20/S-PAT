@@ -6,12 +6,14 @@ import Step1ClassificationSetup from "./pages/Step1ClassificationSetup";
 import Step2ClassificationEdit from "./pages/Step2ClassificationEdit";
 import Step3PatentClassification from "./pages/Step3PatentClassification";
 import Step4PatentResult from "./pages/Step4PatentResult";
+import TestTable from "./pages/TestTable";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Step0ModeSelect />} />
+        <Route path="/test" element={<TestTable />} />
 
         {/* 사용자 모드 */}
         <Route path="/user" element={<Layout />}>
